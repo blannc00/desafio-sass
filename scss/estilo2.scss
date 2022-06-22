@@ -1,0 +1,24 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+@mixin titulo-footer {
+    background-color: #3d3dce;
+    color: white;
+    padding: 20px;
+}
+header{
+    @include titulo-footer()
+}
+.main{
+    @extend .texto;
+    background-color: #525151;
+}
+.texto{
+    color: white;
+    padding: 14px;
+}
+footer{
+    @include titulo-footer()
+}

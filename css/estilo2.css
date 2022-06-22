@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #3d3dce;
+  color: white;
+  padding: 20px;
+}
+
+.main {
+  background-color: #525151;
+}
+
+.texto, .main {
+  color: white;
+  padding: 14px;
+}
+
+footer {
+  background-color: #3d3dce;
+  color: white;
+  padding: 20px;
+}/*# sourceMappingURL=estilo2.css.map */
